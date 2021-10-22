@@ -1,0 +1,136 @@
+.cash-bcg-withdrawal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+
+.cash-withdrawal-container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #150b3e;
+  border-radius: 15px;
+  width: 90%;
+  height: 75%;
+  padding: 10px;
+}
+
+.cash-withdrawal-profile-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.profile-pic-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: #c7d2fe;
+  margin-left: 15px;
+}
+
+.profile-pic-name {
+  color: aliceblue;
+}
+
+.profile-name {
+  color: #ffffff;
+  margin-left: 20px;
+  font-size: 23px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.your-balance-text {
+  color: #c4c4c4;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.current-balance-text {
+  color: #d4d2db;
+  font-size: 24px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.balance-type-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.withdraw-text {
+  color: #c7d2fe;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.choose-sum-text {
+  color: #c4c4c4;
+  font-size: 15px;
+  margin-left: 55px;
+}
+
+.denominationItem-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-withdrawal-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #150b3e;
+    border-radius: 15px;
+    width: 60%;
+    height: 73%;
+    padding: 10px;
+  }
+
+  .profile-pic-container {
+    margin-left: 28px;
+  }
+
+  .profile-pic-name {
+    color: aliceblue;
+  }
+
+  .your-balance-text {
+    margin-left: 28px;
+  }
+
+  .current-balance-text {
+    margin-left: 28px;
+  }
+
+  .balance-type-text {
+    margin-left: 28px;
+  }
+
+  .withdraw-text {
+    margin-left: 28px;
+  }
+
+  .choose-sum-text {
+    margin-left: 65px;
+  }
+}
